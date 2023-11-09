@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mooli&family=Poppins:wght@400;900&display=swap');
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Mooli', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+#cartList{
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+}
+
+.displayPrice{
+    font-family: 'Mooli', sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.hideCart{
+    visibility: hidden;
+}

@@ -1,0 +1,16 @@
+/********************** NAVBAR **********************/
+.fixed {
+    position: fixed;
+    width: 100%;
+    transition: 0.2s linear;
+    top: 0px;
+    background-color: white;
+    z-index: 500;
+}
+
+.nofixed {
+    position: static;
+    transition: 0.2s linear;
+    top: -50px;
+}
+

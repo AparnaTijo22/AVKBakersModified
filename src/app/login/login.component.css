@@ -1,0 +1,36 @@
+/* font-family: 'Great Vibes', cursive;
+font-family: 'Mooli', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mooli&family=Poppins:wght@400;900&display=swap');
+
+.loginBox{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    padding: 15px;
+}
+
+.loginBox input, .loginBox label, p{
+    font-family: 'Mooli', sans-serif;
+    margin: 10px 5px;
+}
+
+.loginBox input{
+    padding: 5px;
+    width: 80%;
+}
+
+.loginBox h2{
+    font-family: 'Great Vibes', cursive;
+    color: #c8a97e;
+    font-size: 5rem;
+}
+
+.loginBox button{
+    margin-top: 5%;
+}
+
+

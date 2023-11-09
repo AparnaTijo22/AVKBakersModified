@@ -1,0 +1,142 @@
+.specialH2{
+    color: rgb(52, 52, 52);
+    margin-top: -40%;
+    padding-bottom: 10%;
+    transition:all 0.5s ease-out;
+}
+
+/********************** RESERVATION **********************/
+
+.reservation{
+    background-image: url("../../assets/images/B.jpg");
+    height: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+}
+
+
+.reservationBox{
+    background-color: #ffff;
+    width: 70%;
+    margin: auto;
+    height: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.reservationBox h3{
+    font-family: 'Great Vibes', cursive;
+    color: #c8a97e;
+    font-size: 5rem;
+    margin-top: 5%;
+}
+
+.reservationMain{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Mooli', sans-serif;
+}
+
+.reservationMain label{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.reservationMain input{
+    margin-bottom: 5%;
+    padding: 10px;
+    width: 140%;
+    border: 1px solid rgb(197, 196, 196);
+}
+
+.reservationLeft{
+    text-align: left;
+}
+
+.reservationLeft label, .reservationLeft input{
+    margin-left: -30%;
+}
+
+.reservationRight label{
+    margin-left: -70%;
+}
+
+.reservationBox button{
+    width: 40%; 
+}
+
+
+@media (max-width: 928px){
+    .reservationMain input{
+        margin-bottom: 5%;
+        padding: 10px;
+        margin-left: 10%;
+        width: 80%;
+        border: 1px solid rgb(197, 196, 196);
+    }
+
+    .reservationLeft label{
+        margin-left: 30%;
+    }
+    .reservationRight label{
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 716px){
+    .reservationRight{
+        margin-top: 2%;
+    }
+    
+    .reservationRight #reservationTop{
+        margin-top: 7%;
+        
+    }
+
+    .reservationRight #reservationTime{
+        margin-top: 10%;        
+    }
+
+}
+
+@media (max-width: 980px){
+    .reservationMain input{
+        margin-bottom: 5%;
+        padding: 10px;
+        margin-left: 10%;
+        width: 80%;
+        border: 1px solid rgb(197, 196, 196);
+    }
+
+    .reservationLeft label{
+        margin-left: 10%;
+    }
+
+    .reservationRight label{
+        margin-left: -40%;
+    }
+}
+
+@media (max-width: 360px){
+    .reservationMain{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reservationRight label{
+        margin-left: -50%;
+    }
+
+    .reservationRight input{
+        margin-left: -1%;
+    }
+
+    #reservationBtn{
+        padding: 8% 5%;
+        width: 60%;
+        border-radius: 10px;
+        font-size: 10px;
+    }
+}
